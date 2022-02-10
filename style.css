@@ -1,239 +1,178 @@
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "PT Sans Narrow", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-color: #000000;
-  background-image: url(img/background.jpg);
-  background-position: top, center;
-  background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #000000;
+	background-image: url(img/background.jpg);
+	background-position: top, center;
+	background-repeat: no-repeat;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .button {
-  font: inherit;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  vertical-align: middle;
-  border: none;
+	font: inherit;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background-color: black;
+	vertical-align: middle;
+	border: none;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-  background-color: #663d15;
-}
-
-.container {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.navigation-wrapper {
-  background-color: #000000;
-  width: 100%;
-  margin-bottom: 60px;
-  height: 72px;
+	background-color: #663d15;
 }
 
 .main-navigation {
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-logo {
-  order: 2;
-  width: 371px;
-  height: 155px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #000000;
 }
 
 .site-navigation,
 .user-navigation {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
 }
 
-.navigation-wrapper .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-navigation {
-  display: flex;
-}
-
-.site-navigation a {
-  display: flex;
-  color: inherit;
-  padding: 26px 20px;
-  align-content: center;
-}
-
-.user-navigation {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-
-.login-icon {
-  position: absolute;
-  top: 28px;
-  left: 19px;
-}
-
-.login-icon path {
-  fill: #4d4d4d;
-}
-
-.login-icon path:hover {
-}
-
+.site-navigation a,
 .user-navigation a {
-  color: inherit;
-  padding: 26px 21px 26px 54px;
+	color: inherit;
 }
 
-.site-navigation li:hover,
-.site-navigation li:focus,
-.user-navigation a:hover {
-  background-color: #242424;
-}
-
-.user-navigation:hover path {
-  fill: #ffffff;
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+	background-color: #242424;
 }
 
 .features-list {
-  list-style: none;
+	list-style: none;
 }
 
 .features-item {
-  text-align: center;
+	text-align: center;
 }
 
 .features-item h3 {
-  font-size: 30px;
-  line-height: 42px;
+	font-size: 30px;
+	line-height: 42px;
 }
 
 .index-columns {
-  color: black;
-  background-color: #f8f5f2;
-  background-image: url(img/background-pattern.jpg);
-  background-repeat: repeat;
-  background-position: 0 0;
+	color: black;
+	background-color: #f8f5f2;
+	background-image: url(img/background-pattern.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
 }
 
 .index-columns h2 {
-  font-size: 30px;
-  line-height: 42px;
+	font-size: 30px;
+	line-height: 42px;
 }
 
 .news-list {
-  list-style: none;
+	list-style: none;
 }
 
 .news-item time {
-  text-transform: none;
+ 	text-transform: none;
 }
 
 .gallery-content {
-  background-color: #e5e5e5;
-  border: 7px solid #ffffff;
+	background-color: #e5e5e5;
+	border: 7px solid #ffffff;
 }
 
 .appointments input {
-  font: inherit;
-  text-transform: uppercase;
-  border: 2px solid #000000;
-  background-color: transparent;
-  outline: none;
+	font: inherit;
+	text-transform: uppercase;
+	border: 2px solid #000000;
+	background-color: transparent;
+	outline: none;
 }
 
-.appointments input:focus {
-  border: 2px solid #663d15;
+.appointments  input:focus {
+	border: 2px solid #663D15;
 }
 
 .main-footer {
-  color: #ffffff;
-  background-color: #212121;
-  background-image: url(img/footer-pattern.png);
-  background-repeat: repeat;
-  background-position: 0 0;
+	color: #ffffff;
+	background-color: #212121;
+	background-image: url(img/footer-pattern.png);
+	background-repeat: repeat;
+	background-position: 0 0;
 }
 
-.footer-contacts a {
-  color: #ffffff;
-  text-decoration: underline;
+.footer-contacts a{
+	color: #ffffff;
+	text-decoration: underline;
 }
 
 .footer-socials {
-  text-align: center;
+	text-align: center;
 }
 
 .footer-socials ul {
-  list-style: none;
+	list-style: none;
 }
 
 .footer-copyright {
-  text-align: center;
+	text-align: center;
 }
 
 .footer-copyright .button:hover,
 .footer-copyright .button:focus {
-  color: #000000;
-  background-color: #ffffff;
+	color: #000000;
+	background-color: #ffffff;
 }
 
 .modal {
-  background-color: #f8f5f2;
-  background-image: url(img/background-pattern.jpg);
-  background-position: 0 0;
-  background-repeat: repeat;
-  color: #000000;
+	background-color: #f8f5f2;
+	background-image: url(img/background-pattern.jpg);
+	background-position: 0 0;
+	background-repeat: repeat;
+	color: #000000;
 }
 
-.modal h2 {
-  font-size: 30px;
-  line-height: 24px;
+.modal h2{
+	font-size: 30px;
+	line-height: 24px;
 }
+
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
-  font: inherit;
-  color: #000000;
-  text-transform: uppercase;
-  background-color: transparent;
-  outline: none;
-  border: 2px solid #000000;
+	font: inherit;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: transparent;
+	outline: none;
+	border: 2px solid #000000;
 }
 
 .login-form input:hover {
-  border-color: #663d15;
+	border-color: #663d15;
 }
 
 .login-checkbox :hover,
 .login-checkbox :focus {
-  color: #663d15;
+	color: #663d15;
 }
 
 .restore {
-  color: #000000;
-  text-decoration: underline;
+	color: #000000;
+	text-decoration: underline;
 }
