@@ -17,6 +17,19 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .button {
   font: inherit;
   text-align: center;
@@ -53,6 +66,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .main-logo {
@@ -121,15 +135,33 @@ a {
 
 .features-list {
   list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .features-item {
   text-align: center;
+  width: 300px;
+  position: relative;
 }
 
 .features-item h3 {
   font-size: 30px;
   line-height: 42px;
+  margin: 0 0 60px 0;
+}
+
+.features-item h3:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  transform: rotate(-45deg);
+  left: 140px;
+  top: 53px;
 }
 
 .index-columns {
