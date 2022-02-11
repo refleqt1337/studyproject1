@@ -115,9 +115,6 @@ a {
   fill: #4d4d4d;
 }
 
-.login-icon path:hover {
-}
-
 .user-navigation a {
   color: inherit;
   padding: 26px 21px 26px 54px;
@@ -138,6 +135,7 @@ a {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 63px;
 }
 
 .features-item {
@@ -170,6 +168,8 @@ a {
   background-image: url(img/background-pattern.jpg);
   background-repeat: repeat;
   background-position: 0 0;
+  display: flex;
+  margin-bottom: 36px;
 }
 
 .index-columns h2 {
