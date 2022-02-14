@@ -180,12 +180,24 @@ a {
   background-position: 0 0;
   display: flex;
   margin-bottom: 35px;
+  position: relative;
 }
 
 .index-columns h2 {
   font-size: 30px;
   line-height: 42px;
   margin: 0;
+}
+
+.news::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 278px;
+  background-image: url(/img/decor-devider.png);
+  position: absolute;
+  top: 95px;
+  left: 465px;
 }
 
 .news {
@@ -240,6 +252,17 @@ a {
   height: 178px;
   box-sizing: border-box;
   margin-bottom: 38px;
+}
+
+.contacts::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 278px;
+  background-image: url(/img/decor-devider.png);
+  position: absolute;
+  top: 95px;
+  left: 465px;
 }
 
 .contacts {
@@ -312,6 +335,10 @@ fieldset {
 
 .appointments input:focus {
   border: 2px solid #663d15;
+}
+
+.appointments .button {
+  width: 300px;
 }
 
 
