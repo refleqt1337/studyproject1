@@ -455,3 +455,14 @@ fieldset {
   color: #000000;
   text-decoration: underline;
 }
+
+/* Shop page */
+
+.inner-navigation {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.inner-navigation .site-navigation li:nth-child(1):hover {
+  background-color: transparent;
+}
