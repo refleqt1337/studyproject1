@@ -31,19 +31,29 @@ a {
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font: inherit;
-  text-align: center;
   text-transform: uppercase;
   color: white;
   background-color: black;
-  vertical-align: middle;
   border: none;
+  width: 140px;
+  height: 45px;
+  cursor: pointer;
 }
 
-.button:hover,
-.button:focus,
-.button:active {
+.button:hover {
   background-color: #663d15;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 300px;
+  height: 45px;
 }
 
 .container {
@@ -169,25 +179,117 @@ a {
   background-repeat: repeat;
   background-position: 0 0;
   display: flex;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
 }
 
 .index-columns h2 {
   font-size: 30px;
   line-height: 42px;
+  margin: 0;
+}
+
+.news {
+  width: 470px;
+  height: 419px;
+  padding: 45px 0 0 80px;
+  box-sizing: border-box;
+}
+
+.news h2 {
+  margin-bottom: 21px;
 }
 
 .news-list {
   list-style: none;
+  padding: 0;
+}
+
+.news-item {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.news-item:nth-child(2){
+  margin-bottom: 28px;
+}
+
+.news-item p {
+  margin: 0;
 }
 
 .news-item time {
   text-transform: none;
 }
 
+.gallery {
+  width: 470px;
+  height: 419px;
+  padding: 45px 0 0 90px;
+  box-sizing: border-box;
+}
+
+.gallery h2 {
+  margin-bottom: 21px;
+}
+
 .gallery-content {
   background-color: #e5e5e5;
   border: 7px solid #ffffff;
+  margin: 0;
+  width: 300px;
+  height: 178px;
+  box-sizing: border-box;
+  margin-bottom: 38px;
+}
+
+.contacts {
+  width: 470px;
+  height: 436px;
+  padding: 45px 0 0 80px;
+  box-sizing: border-box;
+}
+
+.contacts h2 {
+  margin-bottom: 20px;
+}
+
+.contacts p {
+  margin-bottom: 21px;
+}
+
+.appointment {
+  width: 470px;
+  height: 436px;
+  padding: 45px 0 0 93px;
+  box-sizing: border-box;
+}
+
+.appointment h2 {
+  margin-bottom: 20px;
+}
+
+.appointment p {
+  margin-bottom: 11px;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.appointments {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.appointments label {
+  width: 140px;
+  padding-left: 14px;
+  box-sizing: border-box;
+  margin-bottom: 7px;
 }
 
 .appointments input {
@@ -196,11 +298,22 @@ a {
   border: 2px solid #000000;
   background-color: transparent;
   outline: none;
+  width: 140px;
+  height: 43px;
+  box-sizing: border-box;
+  margin-left: -3px;
+  margin-bottom: 10px;
+  padding-left: 13px;
+}
+
+.appointments input:nth-child(8){
+  margin-bottom: 19px;
 }
 
 .appointments input:focus {
   border: 2px solid #663d15;
 }
+
 
 .main-footer {
   color: #ffffff;
