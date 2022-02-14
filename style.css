@@ -183,6 +183,10 @@ a {
   position: relative;
 }
 
+.index-columns:last-child {
+  margin-bottom: 65px;
+}
+
 .index-columns h2 {
   font-size: 30px;
   line-height: 42px;
@@ -348,6 +352,16 @@ fieldset {
   background-image: url(img/footer-pattern.png);
   background-repeat: repeat;
   background-position: 0 0;
+  padding-top: 58px;
+}
+
+.main-footer p {
+  margin: 0;
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-contacts a {
@@ -357,14 +371,46 @@ fieldset {
 
 .footer-socials {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 155px; 
 }
 
-.footer-socials ul {
+.footer-socials p, a {
+  margin: 0;
+}
+
+.footer-socials .footer-icons {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer-icons li a {
+  display: flex;
+  width: 43px;
+  height: 43px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.footer-icons li a:hover {
+  background-color: #ffffff;
+}
+
+.footer-icons li a:hover path {
+  fill: black;
 }
 
 .footer-copyright {
   text-align: center;
+}
+
+.footer-copyright p {
+  margin-bottom: 14px;
 }
 
 .footer-copyright .button:hover,
